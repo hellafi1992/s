@@ -1,0 +1,30 @@
+body{
+    background: darkcyan;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0% 0%;
+    background: whitesmoke;
+    height: 30px;
+    color: rgb(168, 137, 137);
+    font-size: 23px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+main{
+    position: relative;
+    top: 0px;
+    border-radius: 0% 0% 5px 5px;
+    background: rgb(37, 34, 34);
+    height: 800px;
+}
+
+iframe{
+    min-width: 100%;
+    min-height: 100%;
+}
